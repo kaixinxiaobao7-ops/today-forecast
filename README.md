@@ -1,5 +1,9 @@
 # 星签 · 今日星座运势
 
+[![在线体验](https://img.shields.io/badge/在线体验-星签-e6c78d?style=flat-square)](https://kaixinxiaobao7-ops.github.io/today-forecast/) [![Deploy](https://github.com/kaixinxiaobao7-ops/today-forecast/actions/workflows/deploy.yml/badge.svg)](https://github.com/kaixinxiaobao7-ops/today-forecast/actions/workflows/deploy.yml)
+
+**在线体验：<https://kaixinxiaobao7-ops.github.io/today-forecast/>**
+
 一个纯静态、零依赖的今日星座运势网页。选择你的星座，查看爱情、事业、财运、健康四维能量与今日指引，再摇一支只属于你的「今日运势签」，并保存为精美的分享卡片。
 
 ![星签预览](assets/img/og.png)
@@ -48,7 +52,7 @@ python3 -m http.server 4173
 
 1. 在仓库 **Settings → Pages → Build and deployment** 中，将 Source 设为 **GitHub Actions**。
 2. 推送到 `main`，等待 Actions 中的 `Deploy to GitHub Pages` 完成。
-3. 访问 `https://<username>.github.io/<repo>/`。
+3. 访问 `https://<username>.github.io/<repo>/`。本项目当前地址：<https://kaixinxiaobao7-ops.github.io/today-forecast/>。
 
 如需部署到自己的仓库：
 

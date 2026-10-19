@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: sitemap.xml
+Sitemap: https://kaixinxiaobao7-ops.github.io/today-forecast/sitemap.xml
