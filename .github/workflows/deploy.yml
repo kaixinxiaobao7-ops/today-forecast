@@ -24,7 +24,7 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir -p _site
-          cp index.html manifest.webmanifest _site/
+          cp index.html manifest.webmanifest 404.html robots.txt sitemap.xml _site/
           cp -R assets _site/
 
       - name: Upload Pages artifact
