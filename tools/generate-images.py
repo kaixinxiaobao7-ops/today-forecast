@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "assets" / "img"
+OUT = ROOT / "public" / "assets" / "img"
 OUT.mkdir(parents=True, exist_ok=True)
 
 SONGTI = "/System/Library/Fonts/Supplemental/Songti.ttc"
