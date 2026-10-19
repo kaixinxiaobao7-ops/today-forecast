@@ -7,3 +7,5 @@ node_modules/
 *.log
 test-results/
 _preview/
+
+.git-credentials-local
